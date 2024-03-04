@@ -55,7 +55,7 @@ def RAG() :
 
 def report() : 
 
-    st.markdown(open('Assets/Report/Mark_1.txt').read())
+    st.markdown(open('Main/Assets/Report/Mark_1.txt').read())
 
     bar_dict = {
         'token_length' : {
@@ -85,18 +85,18 @@ def report() :
     }
 
     st.bar_chart(bar_dict['token_length'])
-    st.markdown(open('Assets/Report/Mark_2.txt').read())
+    st.markdown(open('Main/Assets/Report/Mark_2.txt').read())
     st.bar_chart(bar_dict['model_size']) 
     st.bar_chart(bar_dict['training_size'])
 
-    st.markdown(open('Assets/Report/Mark_5.txt').read())
-    st.markdown(open('Assets/Report/Mark_6.txt').read())
-    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Assets/Report/Images/MLM_1.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
-    st.markdown(open('Assets/Report/Mark_7.txt').read())
-    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Assets/Report/Images/MLM_2.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
-    st.markdown(open('Assets/Report/Mark_8.txt').read())
-    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Assets/Report/Denoising-Autoencoders.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
-    st.markdown(open('Assets/Report/Mark_9.txt').read())
+    st.markdown(open('Main/Assets/Report/Mark_5.txt').read())
+    st.markdown(open('Main/Assets/Report/Mark_6.txt').read())
+    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Main/Assets/Report/Images/MLM_1.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
+    st.markdown(open('Main/Assets/Report/Mark_7.txt').read())
+    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Main/Assets/Report/Images/MLM_2.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
+    st.markdown(open('Main/Assets/Report/Mark_8.txt').read())
+    st.markdown(f'''<img src="data:image/jpeg;base64,{get_image_base64_str('Main/Assets/Report/Denoising-Autoencoders.webp')}" width="400" height="200">''' , unsafe_allow_html = True)
+    st.markdown(open('Main/Assets/Report/Mark_9.txt').read())
 
 def understanding() : pass
 def questions() : pass
