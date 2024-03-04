@@ -1,0 +1,6 @@
+This is the reason why we are using GPT 3.5 Turbo, making a deep dive in the training process of the model (Trainig Objective is not known)
+
+* Training Object 
+* * `Masked Language Modelling` $(MLM)$ - is a common technique where the `model is trained to predict masked words in a sentence`. This helps the model learn the relationships between words and how they are used in context.
+
+* * `Denoising autoencoders` : This technique `involves corrupting` the `input data` (text) in `some way and then training the model to reconstruct` the `original data`. This helps the model `learn robust representations` of the `data and improve its ability` to handle different types of input. We design our loss function such that the model trains to be less similar to the original output. 

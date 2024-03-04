@@ -1,0 +1,5 @@
+Instead of minimizing the traditional criteria: 
+
+$$L(x , g(f(x)))$$
+
+The denoising autoencoder is trained to `learn the representations` and not `simply memorize and copy the input to the output`, because the input and output aren’t the same anymore. 

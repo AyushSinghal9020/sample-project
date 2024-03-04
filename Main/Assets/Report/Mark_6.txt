@@ -1,0 +1,12 @@
+## MAsked Language Modelling
+
+The input sequences are lists of tokens `x = [x1, … xn]`. $MLM$ seeks to replace `k` of those tokens with `alternative plausible words`, arriving at a list of `k` masks `[m1,…,mk]`.
+
+$$m_i = unif(1 , n)$$ for i = 1 to k
+$$x^{masked} = REPLACE(x , m , [MASK])$$
+$$x_i = P_g(x_i | x^{masked})$$ for i to m
+$$x^{corrupt} = REPLACE(x , m , x)$$
+
+This process yields `x^corrupt`, a `list of tokens with plausible alternative words inserted into m places.`
+
+It is then the `discriminator’s job` to `determine whether` a word in the sentence is the `original`, or the `altered word`.

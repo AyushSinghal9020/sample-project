@@ -1,0 +1,14 @@
+* $BERT$ has the `shortest token length`, with just `above 500 tokens`. 
+* $GPT-3$ has a `token length` of $4096$
+* $GPT-3.5 Turbo$ boasts the `highest token length by far`, `exceeding 30,000 tokens`. This suggests a `significant improvement in GPT-3.5 Turbo` over its predecessors, potentially `allowing for longer and more nuanced context` to be maintained during interactions with this model.
+* $Gamma$ appears to have a `token length around half that of GPT-3`.
+* $LLama 2B$ has a `token length just under` $10,000$, making it capable of handling reasonably large contexts `but still far less than GPT-3.5 Turbo.`
+* $LLama 7B$ has a `token length approximately` equal to that of GPT-3, around 2,000 tokens.
+
+When considering the positive aspects of GPT-3.5 Turbo in comparison to the other models shown:
+
+* `Context Awareness`: With its capacity to handle over 30,000 tokens, GPT-3.5 Turbo has the potential to maintain context over longer conversations or documents, which is beneficial for understanding and generating coherent and contextually relevant responses in extended dialogues or elaborate texts.
+
+* `Complexity Handling`: The ability to process a greater number of tokens allows GPT-3.5 Turbo to understand and generate more complex narratives or arguments, which can be quite advantageous in tasks requiring extensive reasoning or explanation.
+
+* `Versatility`: A higher token length often indicates the ability to tackle a wider range of tasks that require long-form content analysis, such as summarizing long documents, generating extensive reports, or comprehending lengthy articles.

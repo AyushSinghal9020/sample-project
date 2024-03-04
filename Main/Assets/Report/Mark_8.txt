@@ -1,0 +1,6 @@
+
+## Denoising Autoencoders
+
+In denoising autoencoders, we pass `input that has noise added`. The goal here is to `train an autoencoder to remove those noises` and `yield an output` that’s noise-free. It’s assumed that the higher-level representations are relatively stable and can be easily extracted.
+
+To achieve this, we need autoencoders that minimize the following criteria:

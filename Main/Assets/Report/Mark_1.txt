@@ -1,0 +1,24 @@
+# RAG Report
+
+
+`Retrieval-Augmented Generation` $(RAG)$ is a `technique` that `improves` the `accuracy`/`reliability` of `Large Language Models` $(LLMs)$. $LLMs$ are trained on `massive amounts of text data` which allows them to be `very good at understanding and generating human-like text`.
+
+Shortcommings
+
+* `Limited knowledge` : $LLMs$ rely solely on the `information they were trained on`. This can lead to `outdated information or factual errors`.
+* `Lack of transparency` : It can be `difficult` to understand where an $LLM's$ `response comes from` , making it hard to verify its accuracy.
+
+Process to the Solution
+
+* `User Input` : You ask a `question` or provide a `prompt`.
+* `Retrieval` : The $LLM$ first consults the `external knowledge base` to find `relevant information` related to your input.
+* `Augmentation` : The `retrieved information` is then presented to the $LLM$ alongside your `original input`.
+* `Generation` : Finally, the $LLM$ uses both its `internal knowledge` and the `retrieved information` to generate a response.
+
+Benefits of RAG:
+
+* `Improved Accuracy` : By referencing `external knowledge` , $RAG$ ensures $LLMs$ have access to the `most up-to-date and reliable information`.
+* `Transparency` : $RAG$ can sometimes `cite its sources` , allowing you to verify the information it provides.
+* `Reduced Training Needs` : With access to `external knowledge` , $LLMs$ may not need to be `constantly retrained on massive datasets`.
+
+For this project we tried with `different combinations` of `vector spaces` and `models(LLMs)`, but the best performing was the `OpenAI-GPT 3.5 Turbo`, which can be seen in the sample `LLM RGB Benchmark`

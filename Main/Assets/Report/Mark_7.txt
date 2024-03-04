@@ -1,0 +1,6 @@
+The loss functions for the MLM and Discriminator are as follows:
+
+(some Latex Issue had popped up)
+
+Although this looks mightily like a $GAN$, the generator is trained with `maximum likelihood` as opposed to adversarially. Another difference is that if the `generator generates a token that is identical to the original token`, that token is marked as original, rather than generated.
+
