@@ -12,7 +12,7 @@ def RAG() :
 
     def load_openai_api_key():
 
-        api_key = st.secrets('OPENAI_API_KEY')
+        api_key = st.secrets['OPENAI_API_KEY']
 
         client = OpenAI(api_key = api_key)
 
